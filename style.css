@@ -1,0 +1,72 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+  color:#333;
+  font-family: Ubuntu, Verdana, Arial, "Liberation sans", sans-serif;
+  font-size:12px;
+  line-height:1.4;
+  text-align:left;
+}
+
+#content{
+	margin:0 auto;
+	height:100%;
+	max-width: 1024px;
+}
+
+#instructions{
+	padding: 10px;
+}
+
+#dice, #instructions
+{ 
+  background:#700;
+  color:white;
+  text-align:center;
+  border: #300 10px solid;
+  
+  text-shadow: -1px 0px 0px rgb(0, 0, 0);
+  border-radius: 20px;
+  box-shadow: inset 3px 3px 3px rgb(51, 0, 0);
+  -moz-box-shadow: inset 3px 3px 3px rgb(51, 0, 0);
+  -webkit-box-shadow: inset 3px 3px 3px rgb(51, 0, 0);
+}
+
+#dice {
+
+  height: 95%;
+}
+
+#dice.finished{
+  background: #070;
+  border-color: #090;
+}
+
+#hint{
+	font-size: 20px;
+	opacity: .5;
+	background: black;
+	color: white;
+	border-radius: 30px;
+	padding: 0 50px;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#result{
+	display: block;
+	font-size:400px;
+	line-height:400px;
+	margin:auto auto;
+	position: relative;
+}
+
+#results{
+	display: none;
+}
+
